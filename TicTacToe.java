@@ -44,6 +44,7 @@ public class TicTacToe {
                 for (int i = 0; i < 9; i++) {
                     buttons[i].setText("_");
                 }
+                player = true;
             }
         });
         panel.add(clear);
