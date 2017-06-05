@@ -1,6 +1,4 @@
 
-// package newpackage;
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -8,6 +6,7 @@ import javax.swing.*;
 /**
  *
  * @author rad85000
+ * @author dim26
  */
 public class TicTacToe {
     JFrame frame = new JFrame("Tic-Tac-Toe");
@@ -68,12 +67,6 @@ public class TicTacToe {
 
                 player = !player;
             }
-            // if (currentText.equals("_") && player == true) {
-            //     source.setText("X");
-            // }
-            // else if (currentText.equals("_") && player == false) {
-            //     source.setText("O");
-            // }
         }
     }
 }
